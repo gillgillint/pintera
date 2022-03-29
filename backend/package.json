@@ -1,0 +1,32 @@
+{
+  "name": "pintera",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "kantapong int <kantapong.int.work@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build",
+    "manage": "sanity manage"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "@sanity/base": "^2.29.2",
+    "@sanity/core": "^2.28.1",
+    "@sanity/default-layout": "^2.29.2",
+    "@sanity/default-login": "^2.29.2",
+    "@sanity/desk-tool": "^2.29.2",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/vision": "^2.29.2",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {}
+}
